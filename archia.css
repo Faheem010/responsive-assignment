@@ -1,0 +1,215 @@
+.homepage{
+    background:url('../Archia/images/laura-davidson-QBAH4IldaZY-unsplash.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+}
+.nav-item,.nav-link{
+    font-size: 18px;
+    color: rgb(0, 128, 100);
+}
+@media (max-width: 359.98px) {
+    .button-search{
+        float: left;
+        margin-left: -1rem;
+
+    }
+}
+.button-search{
+background-color: rgb(0, 128, 100);
+border:rgb(0, 128, 100) ;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    color: cadetblue;
+}
+.image-grid{
+--bs-gutter-x: 1rem;
+}
+@media (max-width: 919.98px) {
+    .card-category{
+        margin-left: 20%;
+    }
+}
+@media (max-width: 767.98px) {
+    .card-category{
+        margin-top: 10%;
+        width: 34rem;
+        margin-left: 5%;
+    }
+}
+@media (max-width: 359.98px) {
+    .card-category{
+        margin-top: 10%;
+        width: 34rem;
+        margin-left: 4%;
+    }
+}
+.image-category{
+    height: 300px;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+.image-category{
+    height: 110%;
+    margin-bottom: 10%;
+  }
+}
+.images-row{
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.images-row2{
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media (max-width:360px){
+    .images-row2{
+        width: 328px;
+        background-size: cover;
+        height: 300px;
+    }
+}
+.rounded-3{
+    border-radius: 1.2rem
+}
+.image-bg-page4{
+    min-height:111vh;
+    min-width: 80vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media(max-width: 575.98px){
+    .image-bg-page4{
+        min-height:110vh ;
+        background-size: cover;
+        background-repeat: no-repeat;
+    } 
+}
+
+@media(max-width: 1259.98px){
+    .image-bg-page4{
+        min-height: 750px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    } 
+}
+@media (min-width: 1259.98px) { 
+    .image-bg-page4{
+        min-height: 800px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }  
+}
+
+.row-for-card-planning{
+    padding-top: 3%;
+    padding-left: 10%;
+}
+@media (max-width:767.98px){
+    .row-for-car-planning{
+        padding-top: 2%;
+        padding-left: 2%;
+    }
+}
+
+.card-planning{
+    width:500px;
+    min-height:500px;
+    margin-top: 100px;
+    font-size:large;
+}
+@media(max-width: 575.98px){
+    .card-planning{
+        width:50%;
+        height: 566px;
+
+    }
+}
+@media (max-width: 767.98px){
+.card-planning {
+    width: 284px;
+    height: 570px;
+    font-size: unset;
+    justify-content: center;
+  }
+}
+@media (min-width: 1000.98px) { 
+    .card-planning{
+        width: 50%;
+        font-size: x-large;
+        min-height: 600px;
+    }
+ }
+
+/* .card{
+    height: 450px;
+} */
+.card-img-top-page4{
+    min-width: 100%;
+    min-height: 150px;
+    background-size: cover;
+}
+@media (max-width: 576px) { 
+    .card-img-top-page4{
+        min-width: 100%;
+        min-height: 150px;
+        background-size: cover;
+    }
+}
+@media (max-width: 767.98px)
+{
+.card-img-top-page4{
+    min-height: 208px;
+    min-width: 100%;
+    background-size: cover;
+ }
+}
+.company-logo{
+    height: 110px;
+    min-width: 60px;
+    width: 18%;;
+    background-size: cover;
+}
+@media (min-width: 1088.98px)
+{
+.company-logo  {
+    width: 50%;
+    margin-top: 5px ;
+    height: 180px;
+    background-size: cover;
+}
+}
+
+@media (max-width: 767.98px)
+{
+.company-logo  {
+    width: 50%;
+    margin-top: 5px ;
+    height: 180px;
+    background-size: cover;
+}
+}
+@media (max-width: 500.98px)
+{
+.company-logo  {
+    width: 100%;
+    margin-top: 5px ;
+    height: 180px;
+    background-size: cover;
+}
+}
+.footer-image{
+    min-height: 200px;
+    min-width: 25%;
+    background-size: cover;
+}
+@media (max-width: 991.98px)
+{
+.footer-image  {
+    width: 50%;
+    
+}
+}
